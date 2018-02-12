@@ -34,7 +34,7 @@ namespace Recommendations
 
     public class RecommendationsSampleApp
     {
-        private static string AccountKey = "c5f1c621755f4f58bb381998ab1e5384"; // <---  Set to your API key here.
+        private static string AccountKey = "b188416ac3f543f6b30302d3a71d7f5d"; // <---  Set to your API key here.
         private const string BaseUri = "https://westus.api.cognitive.microsoft.com/recommendations/v4.0"; 
         private static RecommendationsApiWrapper recommender = null;
 
@@ -47,7 +47,7 @@ namespace Recommendations
         /// </summary>
         public static void Main(string[] args)
         {
-            string modelName = "NewModelv2";
+            string modelName = "modelv2";
             string modelId = null;
             long buildId =  -1;
 
